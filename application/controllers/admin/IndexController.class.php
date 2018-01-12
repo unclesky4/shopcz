@@ -5,6 +5,13 @@
 	* 后台首页控制器
 	*/
 	class IndexController extends Controller{
+
+		//test
+		public function testAction() {
+			$data = "huangzhibiao";
+			//include CUR_VIEW_PATH . "test.html";
+			include CUR_VIEW_PATH . "test.php";
+		}
 		
 		public function indexAction() {
 			//echo "admin...index";
